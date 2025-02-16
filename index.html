@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/styles.css"> 
+    <title>Mi proyecto</title>
+</head>
+
+<body>
+    <header>
+        <div class = "nombre">
+            <h1>Alejandro Urdaneta</h1>
+            <h2>Mi Pagina web</h2>
+        </div>
+        
+        <nav>
+            <div class = "menu">
+                <a href="#Inicio">Inicio</a>  
+                <a href="#Tecnologias">Tecnologias</a> 
+                <a href="#Hobbies">Hobbies</a> 
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <article id="Inicio" class="intro">
+                <h2>¿Quien soy?</h2>
+                <p>¡Hola! Mi nombre es Alejandro, tengo 19 años y soy de Venezuela. Me apasionan los videojuegos, el cine y el anime. También disfruto aprender sobre tecnología, cocina, cultura general y explorar las diversas culturas del mundo. Siempre estoy en busca de nuevos conocimientos y experiencias.</p>
+            </article>
+
+            <article id="Tecnologias">
+                <h2 id = "tecno">
+                    Mis Tecnologias Favoritas 
+                </h2>
+                <ul class="tarjetas">
+                    <li class = "tarjeta">
+                        <img src="/assets/img/html.png"alt="Imagen de html">
+                    </li>
+                    <li class = "tarjeta">
+                        <img src="/assets/img/css.png"alt="Imagen de css">
+                    </li>
+                    <li class = "tarjeta">
+                        <img src="/assets/img/js.png"alt="imagen de css">
+                    </li>
+                </ul>
+            </article>
+        </section>
+    </main>
+
+    <section id="Hobbies">
+        <article>
+            <form id="form">
+                <fieldset>
+                    <legend class="act">Mis Actividades Favoritas</legend>
+                    <input id="title" type="text" name="title" placeholder="¿Cual es la actividad?"/>
+                    <input id="description" type="text" name="descripcion" placeholder="Describe la Actividad"/>
+                    <input id="link" type="url" name="link" placeholder="Comparte una imagen de la Actividad"/>
+                    <button id="boton">Agregar la Actividad</button>
+                </fieldset>
+            </form>
+        </article>
+        <div class = flex>
+            <article id = "no-hay">
+                <p>No hay actividades.</p>
+            </article>
+        </div>
+        
+    </section>
+
+    <script src="/scripts/index.js"></script>
+</body>
+</html>

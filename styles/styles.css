@@ -1,0 +1,225 @@
+
+body{
+    padding: 60px;
+    color: #ffff;
+    background-color: rgb(49, 46, 46);
+}
+
+.nombre{
+    margin: 20px;
+    text-align: center;
+    background-color: rgb(22, 22, 22);
+    border-radius: 40px;
+    padding: 14px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3em;
+    margin-top: 15px;
+    margin-bottom: 200px;
+    font-size: 20px; 
+    padding-left: 23px;
+}
+
+.menu a{
+    background-color: rgb(22, 22, 22);
+    border-radius: 40px;
+    padding: 10px 30px 10px 30px;
+}
+
+.menu a:hover{
+    background-color: rgb(22, 22, 22);
+    transition: 0.1s;
+    transform: scale(1.1);
+}
+
+/* que el scroll sea lento, con la navigacion */
+html {
+    scroll-behavior: smooth;
+}
+
+
+.intro{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro h2{
+    margin-bottom: 1em;
+    background-color: rgb(22, 22, 22);
+    border-radius: 40px;
+    padding: 10px;
+}
+
+.intro p{
+    width: 60vw;
+    text-align: center;
+    background-color: rgb(22, 22, 22);
+    border-radius: 40px;
+    padding: 10px;
+    margin-bottom: 200px;
+}
+
+#tecno{
+    text-align: center;
+    margin: 30px 0px 15px 0px;
+    background-color: rgb(22, 22, 22);
+    border-radius: 40px;
+    padding: 10px;
+    margin-bottom: 5em;
+}
+
+.tarjetas{
+display: flex;
+align-items: center;
+justify-content: space-around;
+margin-bottom: 150px;
+}
+
+.tarjeta{
+    width: 250px;
+    height: 300px;
+    border-color: rgb(22, 22, 22);
+    background-color: white;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    filter: grayscale(100%);
+}
+
+.tarjeta:hover{
+    background-color: rgb(22, 22, 22);
+    transition: 0.5s;
+    transform: scale(1.2);
+    filter: grayscale(0%);
+}
+
+fieldset{
+    border: none;
+}
+
+legend{
+    text-align: center;
+    margin-bottom: 150px;
+    font-size: 25px;
+    background-color: rgb(22, 22, 22);
+    border-radius: 40px;
+    padding: 14px;
+}
+
+#actividad{
+    background-color: rgb(22, 22, 22);
+    border-radius: 40px;
+    padding: 10px 30px 10px 30px;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    border-radius: 50px;
+    border:none;
+    margin: 20px;
+    padding: 8px;
+    display: flex;
+    width: 60vw;
+    margin-bottom: 50px;
+}
+
+input::placeholder{
+    color: rgb(49, 46, 46);
+}
+
+button{
+    border-radius: 40px;
+    border: none;
+    padding: 10px;
+}
+
+button:hover{
+    background-color: rgb(22, 22, 22);
+    transition: 0.2s;
+    transform: scale(1.02);
+    color: white;
+}
+
+#no-hay{
+    background-color: rgb(22, 22, 22);
+    border-radius: 40px;
+    margin-top: 25px;
+    padding: 10px 30px 10px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/*//////////////////////////////////////////////////////////*/
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px;
+    margin-left: 60px;
+    margin-right: 60px;
+    width: 250px;
+    height: 350px;
+    background-color: rgb(49, 46, 46);
+    border-radius: 40px;
+    filter: grayscale(100%);
+}
+
+.cards img{
+    width: 200px;
+    height: 200px;
+    padding-top: 20px;
+}
+
+.cards h3{
+    margin-top: 20px;
+}
+
+.card{
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px 30px 0px 30px;
+}
+
+.cards:hover{
+    background-color: rgb(167, 22, 22);
+    transition: 0.5s;
+    transform: scale(1.2);
+    filter: grayscale(0%);
+}
+
+.bot{ 
+    background: none;
+    display: inline-block;
+}
+
+.bot img{
+    padding-top: 10px;
+    width: 84px;
+    height: 84px;
+    border-radius: 100px;
+}
+
+.bot:hover{
+    background: none;
+    transition: 0.5s;
+    transform: scale(1.2);
+}

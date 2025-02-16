@@ -1,0 +1,39 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+/* Opcional: Eliminar estilos predeterminados de enlaces, listas y tablas */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+  
+ul, ol {
+  list-style: none;
+}
+  
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+  
+  /* Ajustar el tamaño de fuente en el HTML */
+html {
+  font-size: 100%; /* 16px por defecto */
+}
+  
+body {
+  line-height: 1.5;
+  font-family: sans-serif;
+}
+  
+/* Imagenes */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+  
